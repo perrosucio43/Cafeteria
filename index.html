@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ararat | Coffee & Bakery</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="nav-container">
+          <a href="#">
+          <div class="logo">
+
+            
+
+            
+            <div class="img">
+            <img src="/assets/cruasan.png" id="cruasan">
+            </div>
+
+            <div class="text-logo">
+                <h1>Cafeteria y Panaderia</h1>
+            </div>
+            
+           
+          
+           
+          </div>
+
+          </a>
+
+
+
+            <button class="Menu-btn" id="MenuBtn">☰</button>
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="#Inicio">Inicio</a></li>
+                <li><a href="#Recomendado">Recomendado</a></li>
+                <li><a href="#Menu">Menu</a></li>
+                <li><a href="#Contacto">Contacto</a></li>
+
+            </ul>
+
+
+
+        </div>
+    </nav>
+    <header class="hero" id="Inicio">
+        <div class="hero-content">
+            <span class="subtitle">Cargados de energía. Inspirados por el sol.</span>
+            <h1>El cafe es <br> Un Arte</h1>
+            <p>Un tostado artesanal para el paladar exigente. Café de especialidad seleccionado a mano.</p>
+        </div>
+    </header>
+
+   <section class="cards-section" id="Recomendado">
+    <div class="card-h2"><h2>Recomendado</h2></div>
+  <div class="cards-container">
+
+    <div class="card">
+      <img src="https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=800" alt="Café">
+      
+      <div class="card-content">
+        <h2>Café Doble</h2>
+        <p>
+          Nuestros granos provienen de granjas exclusivas situadas a más de 1,800 metros.
+        </p>
+        <a href="#" class="link-more">Explora nuestro menú</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/assets/pan_.jpg" alt="Café">
+      
+      <div class="card-content">
+        <h2>Pan Artesanal</h2>
+        <p>
+         El mas crujiente y rico.
+        </p>
+        <a href="#" class="link-more">Explora nuestro menú</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="/assets/Gemini_Generated_Image_umfxhfumfxhfumfx.png" alt="Combo">
+      
+      <div class="card-content">
+        <h2>Combo perfecto</h2>
+        <p>
+          Medialuna + café, una combinación clásica para empezar el día.
+        </p>
+        <a href="#" class="link-more">Ver más</a>
+      </div>
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+
+    <section class="products-slides" id="Menu">
+
+      <div class="categories">
+  <button class="cat active" data-category="all">Todo</button>
+  <button class="cat" data-category="infusion">Infusiones</button>
+  <button class="cat" data-category="food">Comidas</button>
+  </div>
+
+
+
+  <!-- CAROUSEL -->
+  <div class="carousel">
+
+    <div class="track">
+
+      <div class="slide active" data-category="infusion">
+        <div class="column-1">
+            
+       <img src="/assets/infusion2.jpg" alt="imagen nueva" class="img-slide">
+       
+       </div>
+
+
+       <div class="column-2">
+
+        <div class="info-card">
+          <span>LO NUEVO </span>
+        <h1 > Té Verde</h1>
+        <p> Lo mejor para calmar tu ansiedad</p>
+        </div>
+        <div class="footer-card">
+        <h2>$1200</h2>
+        <button>Añadir al Pedido</button>
+        </div>
+       </div>
+
+      </div>
+
+      <div class="slide" data-category="all">
+        <div class="column-1">
+            
+       <img src="/assets/todo.jpg" alt="imagen nueva" class="img-slide">
+       
+       </div>
+
+
+       <div class="column-2">
+
+        <div class="info-card">
+          <span>LO NUEVO </span>
+        <h1 > MEDIALUNAS DULCES + CAFE EXPRESO</h1>
+        <p> El combo perfecto</p>
+        </div>
+        <div class="footer-card">
+        <h2>$1500</h2>
+        <button>Añadir al Pedido</button>
+        </div>
+
+       </div>
+        
+      </div>
+
+      <div class="slide" data-category="food">
+        <div class="column-1">
+            
+       <img src="/assets/comida.jpg" alt="imagen nueva" class="img-slide">
+      
+       </div>
+
+
+       <div class="column-2">
+
+        <div class="info-card">
+          <span>LO NUEVO </span>
+        <h1 > MEDIALUNAS DULCES</h1>
+        <p> Para acompañar todas tus bebidas</p>
+        </div>
+        <div class="footer-card">
+        <h2>$600 c/u</h2>
+        <button>Añadir al Pedido</button>
+        </div>
+
+       </div>
+      </div>
+
+    </div>
+
+    
+   
+
+  </div>
+
+
+
+ <!-- CONTROLES -->
+       <div class="controls">
+    <button id="prev"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <path d="m12 19-7-7 7-7"/><path d="M19 12H5"/>
+  </svg></button>
+
+    <button id="next"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <path d="M5 12h14"/><path d="m12 5 7 7-7 7"/>
+  </svg></button>
+
+  </div>
+
+  <!-- DOTS -->
+  <div class="tlou-bar">
+    <div class="line"></div>
+    <div class="dots"></div>
+ </div>
+
+
+   
+
+ 
+
+</section>
+
+  
+   
+
+    <footer class="footer" id="Contacto">
+
+<div class="footer-container">
+
+        <div class="info-footer">
+
+       <h1>Cafeteria y Panaderia</h1>
+      <p>Fuertemente artesanal y casero<p>
+      </div>
+
+      <div class="items-footer">
+
+        <button class="itemFoter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <path d="M5 12h14"/><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/>
+  </svg></button>
+
+   <button class="itemFoter" id="heart"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+    <path d="M7.828 13.07A3 3 0 0 1 12 8.764a3 3 0 0 1 5.004 2.224 3 3 0 0 1-.832 2.083l-3.447 3.62a1 1 0 0 1-1.45-.001z"/>
+  </svg></button>
+
+  <button class="itemFoter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+   <path d="M15 5.88 14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88Z"/><path d="M7 10v12"/>
+  </svg></button>
+  
+
+      
+      </div>
+      <span>@TuMejorLugar.com.ar</span>
+     </div>
+
+
+    </footer>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
