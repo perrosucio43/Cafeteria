@@ -515,10 +515,11 @@ border-radius: 40px;
 }
 
 .footer{
+  position: relative;
 display: flex;
 justify-content: center;
 align-items: center;
-
+margin-bottom: 40px;
   height: 500px;
 
 }
@@ -542,9 +543,24 @@ height: 55px;
 width: 40px;
 height: 30px;
 }
-#heart svg{
-width: 55px;
-height: 55px;
+
+
+.item-utencilios{
+position: absolute;
+right: 5%;
+bottom: 10%;
+width: 60px;
+height: 60px;
+border: none;
+border-radius: 50PX;
+  background-color: #361F1A;
+
+}
+#utencilio svg{
+width: 40px;
+height: 40px;
+stroke: #FFFFFF;
+
 
 }
 
